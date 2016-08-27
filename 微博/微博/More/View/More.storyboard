@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yjK-KO-k40">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="Kqu-2A-7A6">
+            <objects>
+                <navigationController id="yjK-KO-k40" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V7J-fx-bh8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lRb-Kt-GSh" kind="relationship" relationship="rootViewController" id="LtQ-lF-qOy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NQf-38-var" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-398.93333333333334" y="318.07999999999998"/>
+        </scene>
+        <!--更多-->
+        <scene sceneID="68w-L6-qHC">
+            <objects>
+                <viewController id="lRb-Kt-GSh" customClass="MoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xT5-pF-aJ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gay-oR-bSI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SbQ-o3-F56">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="更多" id="GCB-qV-aBR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWR-wG-btQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-36" y="257"/>
+        </scene>
+    </scenes>
+</document>
